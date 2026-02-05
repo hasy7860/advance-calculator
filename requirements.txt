@@ -1,0 +1,6 @@
+# Create calculator/__init__.py if missing
+if (-not (Test-Path -Path 'calculator/__init__.py')) { New-Item -ItemType File -Path 'calculator/__init__.py' | Out-Null }
+
+# Write requirements.txt
+@'
+yagmail
