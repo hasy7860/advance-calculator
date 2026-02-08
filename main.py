@@ -37,8 +37,8 @@ def main():
         " 3. Type 'i' to access interest calculator.\n"
         " 4. Type 'exit' to exit the calculator.\n")
 
-    email_user = "originalhasy@gmail.com"
-    email_pass = "mycn ekyo rxqa bhao"
+    email_user = ""
+    email_pass = ""
 
     free_trial_limit = 5
     successful_uses = 0
